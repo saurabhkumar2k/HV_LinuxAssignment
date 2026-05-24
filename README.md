@@ -1,5 +1,6 @@
 # HV_LinuxAssignment
-LinuxAssignment - Assignment 3
+LinuxAssignment - Assignment 
+# Question 1:
 Create the directory /home/ec2-user/webapp/ with three subdirectories inside it: scripts/, logs/, and config/ using a single mkdir -p command.
 <img width="940" height="219" alt="image" src="https://github.com/user-attachments/assets/84ff55f9-758a-4042-96e1-21888e5a424b" />
 
@@ -29,6 +30,10 @@ Others		       r-- -> Read only
 
 Recursively change ownership of the entire webapp/ directory to root:root using chown -R. Then run ls -lR /home/ec2-user/webapp/ and share the output to confirm every file and folder shows root root as owner.
 <img width="940" height="342" alt="image" src="https://github.com/user-attachments/assets/b6dd39a0-2539-4b63-ab93-0ca0bd19089e" />
+
+# Question 2:
+
+<img width="1503" height="780" alt="image" src="https://github.com/user-attachments/assets/2bf6cbe4-1f5b-4910-8ceb-5cdbacb2c3b1" />
 
 
  
