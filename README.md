@@ -27,6 +27,9 @@ Owner                       rw- ->  Read, Write.
 Group 		       r-- -> Read only 
 Others		       r-- -> Read only
 
+Recursively change ownership of the entire webapp/ directory to root:root using chown -R. Then run ls -lR /home/ec2-user/webapp/ and share the output to confirm every file and folder shows root root as owner.
+<img width="940" height="342" alt="image" src="https://github.com/user-attachments/assets/b6dd39a0-2539-4b63-ab93-0ca0bd19089e" />
+
 
  
 
