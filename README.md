@@ -44,6 +44,46 @@ Recursively change ownership of the entire webapp/ directory to root:root using 
 **Verified log entry**
 <img width="1495" height="343" alt="image" src="https://github.com/user-attachments/assets/85b59e9b-bcb9-4a06-a0a9-5c0de4fa1b8c" />
 
+# Question 3:
+
+**Created a group called writers**
+
+<img width="1535" height="461" alt="image" src="https://github.com/user-attachments/assets/843b15b7-263a-4cdc-bca9-43446c3f91c3" />
+
+**Created four users**
+<img width="1498" height="638" alt="image" src="https://github.com/user-attachments/assets/2ae49b76-773a-471b-89ec-3ef2e08bb3a2" />
+
+**Added write users to writers group**
+<img width="1526" height="798" alt="image" src="https://github.com/user-attachments/assets/f6bcb7d2-1fba-4042-b02f-18a2fc26f261" />
+
+**Change the group ownership of log_user.sh to writers: sudo chown root:writers /home/ec2-user/webapp/scripts/log_user.sh
+Set permissions to 664 so writers group gets rw and others get r only: sudo chmod 664 /home/ec2-user/webapp/scripts/log_user.sh
+Verify the permission output shows: -rw-rw-r--  root  writers  log_user.sh**
+
+<img width="1507" height="417" alt="image" src="https://github.com/user-attachments/assets/b820c9d8-1531-406b-8556-15787582c619" />
+
+**Switch to each user and test access to confirm it is working correctly:
+Permission Layout (chmod 664):
+chmod 664 log_user.sh
+ 6          6          4
+Owner(rw)  Group(rw)  Others(r)
+ root      writers    devuser3, devuser4**
+
+
+ <img width="1497" height="758" alt="image" src="https://github.com/user-attachments/assets/62c2c5c9-797b-42db-8a97-771d354a684b" />
+
+ <img width="1505" height="893" alt="image" src="https://github.com/user-attachments/assets/a4bc669f-f6b4-477c-96cf-fd72c2a43dfb" />
+
+ <img width="1502" height="892" alt="image" src="https://github.com/user-attachments/assets/f73f1225-0b24-40f3-9798-b6cf109f13b6" />
+
+ <img width="1507" height="943" alt="image" src="https://github.com/user-attachments/assets/c704868c-12ae-44c0-9582-9efb78985339" />
+
+
+
+
+
+
+
 
 
 
