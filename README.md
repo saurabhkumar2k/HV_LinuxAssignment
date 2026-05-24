@@ -35,6 +35,11 @@ Recursively change ownership of the entire webapp/ directory to root:root using 
 
 <img width="1503" height="780" alt="image" src="https://github.com/user-attachments/assets/2bf6cbe4-1f5b-4910-8ceb-5cdbacb2c3b1" />
 
+<img width="1501" height="780" alt="image" src="https://github.com/user-attachments/assets/2df9b0d8-7f42-4fd3-ac0d-9b48d3eec40c" />
+
+<img width="1527" height="888" alt="image" src="https://github.com/user-attachments/assets/242eefc5-6460-4b7d-8b5b-0f0169f6ad78" />
+
+
 
  
 
